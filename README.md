@@ -42,4 +42,28 @@ System.out.println("Result of adding three integers values:"+result3);
 }
 }
 <img width="263" height="55" alt="overload" src="https://github.com/user-attachments/assets/dcbd980f-03f8-4896-aaa6-86857096f033" />
+#exp 2.2
+--java student
+class student{
+String name;
+int age;
+int marks;
+student(String n, int a, int m){
+name=n;
+age=a;
+marks=m;
+}
+void display(){
+System.out.println("name:"+name);
+System.out.println("age:"+age);
+System.out.println("marks:"+marks);
+}
+public static void main (String[]args)
+{
+student s1 = new student ("Alice",20,85);
+s1.display();
+}
+}
+<img width="113" height="50" alt="student" src="https://github.com/user-attachments/assets/c11b4ec8-cbcd-4c10-94fc-c59c8cb2e7eb" />
+
 
